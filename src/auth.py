@@ -1,4 +1,4 @@
-from users import get_user_by_username, users
+from src.users import get_user_by_username, users
 from http import HTTPStatus
 from jose import jwt, ExpiredSignatureError, JWTError
 from datetime import datetime as dt, timedelta
