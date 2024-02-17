@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Depends
-from auth import UserCredentials, create_token, authenticate_user
+from src.auth import UserCredentials, create_token, authenticate_user
 
 
 app = FastAPI()
